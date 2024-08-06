@@ -1,0 +1,5 @@
+train:F:\Documents\data set\train
+val:F:\Documents\data set\val
+is-coco:False
+nc:1
+names:['water bottle']
