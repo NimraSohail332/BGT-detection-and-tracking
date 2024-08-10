@@ -23,12 +23,12 @@ Display the tracking results in real-time.
 **Labelimg**
 LabelImg: An open-source graphical image annotation tool.
 **Process:**
-Open the image using LabelImg.
-Draw bounding boxes around the objects of interest.
-Save the annotations in YOLO format (TXT files).
+*Open the image using LabelImg.
+*Draw bounding boxes around the objects of interest.
+*Save the annotations in YOLO format (TXT files).
 **Training YOLOv8:**
-Configure YOLOv8 for your dataset.
-Run the training process and save the trained model.
+*Configure YOLOv8 for your dataset.
+*Run the training process and save the trained model.
 **Results**
 **Detection Performance:** Evaluated based on precision, recall, and accuracy of YOLOv8 on the validation dataset.
 **Tracking Performance**: Assessed on the ability of BGT to maintain accurate tracking across frames.
