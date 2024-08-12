@@ -15,6 +15,38 @@ The system operates in two main stages:
 ## BGTTracker Class
 
 The `BGTTracker` class is responsible for tracking the object based on background subtraction and morphological operations to reduce noise. It maintains the object's initial size and smooths the position to reduce jitter.
+Here’s the requirements section formatted for your GitHub README:
+
+---
+
+## Requirements
+
+### Libraries
+
+To run this project, you'll need the following Python libraries:
+
+- `opencv-python`
+- `numpy`
+- `ultralytics` (for YOLOv8)
+
+You can install these dependencies using pip:
+
+```bash
+pip install opencv-python numpy ultralytics
+```
+
+### Software
+
+- **Compiler/IDE:** Visual Studio Code (VSCode)
+- **Python Version:** Python 3.7 or higher
+
+### Hardware
+
+- **Webcam:** A functional webcam connected to your computer is required to capture real-time video for detection and tracking.
+
+
+
+
 
 ## Code Flow
 
@@ -42,9 +74,6 @@ The `BGTTracker` class is responsible for tracking the object based on backgroun
 
 ## Training YOLOv8
 
-Here’s the section you can copy and paste directly into your README file, formatted with headings and bullet points:
-
----
 
 ## Training
 
