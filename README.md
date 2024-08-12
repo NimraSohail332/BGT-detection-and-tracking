@@ -87,6 +87,7 @@ The F1 score curve shows the trade-off between precision and recall across diffe
 - **Precision:** The ratio of true positives to the total predicted positives.
 - **Recall:** The ratio of true positives to the total actual positives.
 - **F1 Score:** Balances precision and recall into a single metric.
+    ![Confusion Matrix](https://github.com/NimraSohail332/BGT-detection-and-tracking/blob/main/train17/F1_curve.png)
 
 A higher F1 score indicates better overall performance, especially important in cases with class imbalances.
 
