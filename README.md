@@ -42,8 +42,58 @@ The `BGTTracker` class is responsible for tracking the object based on backgroun
 
 ## Training YOLOv8
 
-1. Configure YOLOv8 for your dataset.
-2. Run the training process and save the trained model.
+Here’s the section you can copy and paste directly into your README file, formatted with headings and bullet points:
+
+---
+
+## Training
+
+### Prepare Your Dataset
+
+- Organize images and label files into appropriate directories (e.g., `images/` and `labels/`).
+
+### Configure YOLOv8
+
+- Set up a configuration file for training, specifying paths to your data, classes, and hyperparameters.
+
+### Train the Model
+
+- Use the YOLOv8 training script to train the model on your dataset. For example:
+
+  ```bash
+  yolo train --data your_data.yaml --cfg your_model.cfg --weights '' --batch-size 16 --epochs 50
+  ```
+
+- Adjust parameters based on your dataset and needs.
+
+## Evaluation Metrics
+
+### Confusion Matrix
+
+The confusion matrix provides insight into the classification performance of the model. It shows:
+
+- **True Positives (TP):** Correctly identified positive instances.
+- **True Negatives (TN):** Correctly identified negative instances.
+- **False Positives (FP):** Incorrectly identified positive instances.
+- **False Negatives (FN):** Incorrectly identified negative instances.
+  ![Confusion Matrix](https://github.com/NimraSohail332/BGT-detection-and-tracking/blob/main/train17/F1_curve.png)
+
+A balanced confusion matrix indicates good performance, while imbalances highlight areas needing improvement.
+
+### F1 Score Curve
+
+The F1 score curve shows the trade-off between precision and recall across different threshold values. The F1 score is the harmonic mean of precision and recall:
+
+- **Precision:** The ratio of true positives to the total predicted positives.
+- **Recall:** The ratio of true positives to the total actual positives.
+- **F1 Score:** Balances precision and recall into a single metric.
+
+A higher F1 score indicates better overall performance, especially important in cases with class imbalances.
+
+---
+
+
+   
 
 ## Results
 
