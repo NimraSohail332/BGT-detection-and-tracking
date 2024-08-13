@@ -105,7 +105,7 @@ The confusion matrix provides insight into the classification performance of the
 - **True Negatives (TN):** Correctly identified negative instances.
 - **False Positives (FP):** Incorrectly identified positive instances.
 - **False Negatives (FN):** Incorrectly identified negative instances.
-  ![Confusion Matrix](https://github.com/NimraSohail332/BGT-detection-and-tracking/blob/main/train17/F1_curve.png)
+  ![Confusion Matrix](https://github.com/NimraSohail332/BGT-detection-and-tracking/blob/main/train17/confusion_matrix.png?raw=true)
 
 A balanced confusion matrix indicates good performance, while imbalances highlight areas needing improvement.
 
